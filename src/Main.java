@@ -1,4 +1,4 @@
-import java.sql.SQLOutput;
+
 import java.util.Scanner;
 
 public class Main {
@@ -7,7 +7,7 @@ public class Main {
         division();
         volume();
         Scanner scanner = new Scanner(System.in);
-        /*int unEntier = scanner.nextInt();
+        int unEntier = scanner.nextInt();
         float unReel = scanner.nextFloat();
         System.out.println("J’ai récuperé un entier: " + unEntier);
         System.out.println("J’ai aussi récuperé un reel: " + unReel);
@@ -15,7 +15,7 @@ public class Main {
 
         System.out.println("Bonjour, quel est votre prénom?");
         String prenom = scanner.nextLine();
-        System.out.println("Bonjour " + prenom);*/
+        System.out.println("Bonjour " + prenom);
     }
 
     public static void somme () {
